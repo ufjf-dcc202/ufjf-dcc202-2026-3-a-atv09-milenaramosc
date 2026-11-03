@@ -1,0 +1,14 @@
+main > article {
+    resize: both;
+    overflow: scroll;
+    border: 1px solid red;
+}
+main {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
