@@ -6,7 +6,7 @@ main > article {
 main {
     display: grid;
     place-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 body {
     margin: 0;
