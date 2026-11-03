@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCC202 Exemplo03</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        ul {
+           list-style: none;
+           padding: 0;
+           margin: 0;
+        }
+        ul > li {
+           border: 1px solid green;
+           background-color: lightgreen;
+        }
+        .desconstructed-pacake {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+        .desconstructed-pacake > * {
+            flex: 1 1 120px;
+            /* min-height: 80px */
+        }
+        .sidebar-says {
+            display: grid;
+            grid-template-columns: minmax(9ch, 20%) 1fr;
+            gap: 10px;
+            /* grid-template-columns: minmax(100px,20%) 1fr; */
+            /* grid-template-columns: minmax(200px,20%) 80%; */
+            /* grid-template-columns: auto 1fr 2fr; */
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <article class="sidebar-says">
+            <section>
+                <ul class="desconstructed-pacake">
+                <li>Milena</li>
+                <li>Igor</li>
+                <li>Jose Maria</li>
+                <li>Aparecida</li>
+            </ul>
+            </section>
+
+            <section>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor in aspernatur ducimus itaque neque laborum, at earum architecto, magni repellendus alias minus sequi nihil beatae voluptate expedita, eius nesciunt. Nihil.
+            </section>
+            
+        </article>
+    </main>
+</body>
+
+</html>
